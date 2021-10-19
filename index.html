@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 class="heading">Simple Weather App</h1>
+    <div class="full-container">
+        <input id="searchCity" class="search-form" type="text" placeholder="Search for a city" autofocus>
+        <button id="submitbtn" class="submit-btn" type="submit">submit</button>
+        <button id="currLoc" class="submit-btn">Use Current Location</button>
+        <span id="msg" class="msg"></span>
+    </div>
+    <div id="output" class="output"></div>
+    <div id="loader" hidden="true" class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
